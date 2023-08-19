@@ -1,0 +1,80 @@
+.education-item {
+    margin-bottom: 0.4rem;
+    /* border-left: 4px solid #3498db; */
+    position: relative;
+  }
+.education-item .school-name {
+    font-weight: bold;
+    /* color: #3498db; */
+    margin-bottom: 0;
+
+  }
+  .education-item .date {
+    font-size: 14px;
+    color: #777;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .education-item .degree {
+   color: #333;
+  }
+
+  .circlesize {
+    vertical-align: middle;
+    font-size: 8px;
+  }
+
+  .education-item .per {
+    display: flex;
+    /* width: 30%; */
+  }
+
+  .education-item .fl {
+    display: flex;
+
+  }
+
+  /* Custom styles */
+  .arrow-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .arrow-icon {
+    margin-right: 10px;
+    /* Adjust spacing between arrow and heading */
+  }
+
+  .arrow-heading {
+    font-weight: bold;
+    color: #333;
+    /* Set the color you want for the heading */
+  }
+  .link a{
+text-decoration: none;
+  }
+
+  .link i{
+    top: 3px;
+    font-size: 25px;    
+  position: relative;
+  }
+
+  .link strong{
+    font-size: 20px;
+    
+  }
+  .link strong:hover{
+    text-decoration: underline;
+  }
+  
+  .link img{
+    height: 21px;
+    position: relative;
+    top: -5px;
+    width: 22px;
+    margin-right: 7px;
+}
+  

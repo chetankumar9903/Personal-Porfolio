@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+     <link rel="website icon" href="img/project.jpeg" >
+    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/rocket2.css">
+
+    <!-- <link rel="stylesheet" href="css/about.css"> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+   
+         
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Chetan's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li style="margin: 0 23px;"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="index.html#contact">Contact Me</a></li>
+                </ul>
+    
+            </div>
+        </nav>
+    </header>
+    <!-- <div class="project-container"> -->
+        <div class="project-card project1">
+            <h2 class="project-title">Project 1</h2>
+            <div class="whole">
+                <div class="description-and-button">
+                    <p class="project-description" style="margin: 0 40px;">E-Commerce_Website
+                    </p>
+                    <button class="popover-button1">Description</button>
+                </div>
+                <div class="popover-content1">
+                    <h3 class="popover-title">Overview</h3>
+                    <hr>
+                    <p class="popover-description">This is a multi-page responsive e-commerce website project that uses modern CSS, including Flexbox and CSS Grid, to create stunning designs and effects. The website is fully responsive, ensuring an optimal user experience on tablets and mobile devices.</p>
+                </div>
+            </div>
+           <a href="https://chetankumar9903.github.io/E-Commerce_Website/"><button class="demo-button">Demo</button></a> 
+        </div>
+        
+        <div class="project-card project2">
+            <h2 class="project-title">Project 2</h2>
+            <div class="whole">
+                <div class="description-and-button">
+                    <p class="project-description" style="margin: 0 40px;">Restaurant_Website</p>
+                    <button class="popover-button2">Description</button>
+                </div>
+                <div class="popover-content2">
+                    <h3 class="popover-title">Overview</h3>
+                    <hr>
+                    <p class="popover-description">Welcome to David Chu's China Bistro!-A complete website. <br>The website features a responsive design, making it accessible on various devices, and includes sections for the menu, about information, awards, contact details, and customer testimonials. </p>
+                </div>
+            </div>
+            <a href="https://chetankumar9903.github.io/module-5_solutions/"><button class="demo-button">Demo</button></a> 
+            
+        </div>
+        <!-- Add more project cards here -->
+    <!-- </div> -->
+
+
+    <!-- <div style="height: 26px"></div> -->
+    <!-- <div class="project-container"> -->
+        <div class="project-card project1">
+            <h2 class="project-title">Project 3</h2>
+            <div class="whole">
+                <div class="description-and-button">
+                    <p class="project-description" style="margin: 0 40px;">ToDo List </p>
+                    <button class="popover-button1">Description</button>
+                </div>
+                <div class="popover-content1">
+                    <h3 class="popover-title">Overview</h3>
+                    <hr>
+                    <p class="popover-description">This is a simple ToDo List project built using HTML, CSS, and JavaScript. The application allows users to add, complete, and delete tasks in a list. The list items are saved in the browser's local storage, so the tasks persist even after refreshing the page.</p>
+                </div>
+            </div>
+            <a href="https://chetankumar9903.github.io/ToDo--List/"><button class="demo-button">Demo</button></a> 
+        </div>
+        
+       
+        <div class="project-card project2">
+            <h2 class="project-title">Project 4</h2>
+            <div class="whole">
+                <div class="description-and-button">
+                    <p class="project-description" style="margin: 0 40px;">Registraton Form</p>
+                    <button class="popover-button2">Description</button>
+                </div>
+                <div class="popover-content2">
+                    <h3 class="popover-title">Overview</h3>
+                    <hr>
+                    <p class="popover-description">Coming soon!! <br>A complete Registraton Form having frontend and backened . Store filled information in database. USe of cookies , Login and Logout</p>
+                </div>
+            </div>
+            <a href="#"><button class="demo-button">Demo</button></a> 
+        </div>
+        <!-- Add more project cards here -->
+    <!-- </div> -->
+    
+
+
+
+
+    <!-- <div style="height: 26px"></div> -->
+    <div class="container2  ">
+        <div class="arrow-container" id="arrow-left">
+            <div class="arrow1 left"><p id="down">Go To About Section</p></div>
+        </div>
+    
+        <div class="arrow-container" id="arrow-right">
+            <div class="arrow2 right"><p id="down">Go To Contact Section</p></div>
+        </div>
+    </div>
+    
+    <script> document.addEventListener("DOMContentLoaded", function() {
+        const popoverButtons1 = document.querySelectorAll(".popover-button1");
+        const popoverButtons2 = document.querySelectorAll(".popover-button2");
+        const popoverContents1 = document.querySelectorAll(".popover-content1");
+        const popoverContents2 = document.querySelectorAll(".popover-content2");
+    
+        popoverButtons1.forEach((button, index) => {
+            button.addEventListener("click", function() {
+                popoverContents1[index].classList.toggle("active");
+            });
+        });
+        popoverButtons2.forEach((button, index) => {
+            button.addEventListener("click", function() {
+                popoverContents2[index].classList.toggle("active");
+            });
+        });
+    });
+    
+    document.getElementById("arrow-left").addEventListener("click", function() {
+        const arrow = document.querySelector(".arrow1.left");
+        arrow.classList.add("clicked");
+        setTimeout(function() {
+            window.location.href = "about.html"; // Replace with your actual URL
+        }, 500); // Wait for the animation to complete before redirecting
+    });
+
+    document.getElementById("arrow-right").addEventListener("click", function() {
+        const arrow = document.querySelector(".arrow2.right");
+        arrow.classList.add("clicked");
+        setTimeout(function() {
+            window.location.href = "/index.html#contact"; // Replace with your actual URL
+        }, 500); // Wait for the animation to complete before redirecting
+    });
+    </script>
+   
+</body>
+</html>

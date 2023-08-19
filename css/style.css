@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 37);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+nav {
+    background-color: rgb(16, 16, 131);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    text-decoration: none;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0rem;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none ;
+    color: white;
+}
+
+nav ul li a:hover {
+
+    font-size: 1.01rem;
+    text-decoration: underline;
+    color: rgb(129, 129, 222);
+}
+
+main hr {
+    border: 0px;
+    background: rgb(137, 137, 219);
+    height: 1.2px;
+    margin: 20px 0px;
+
+}
+
+.header{
+    /* display: flex; */
+    font-size: 4rem;
+   
+    padding-top: 15px;
+    padding-left: 200px;
+}
+
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0 20px 0;
+}
+
+.firstSection>div {
+    width: 33%;
+
+}
+
+.secondsection #head{
+    font-size: 3rem;
+    text-align: center;
+    background-color: rgb(141, 91, 188);
+    display: block;
+}
+
+.leftsection {
+    font-size: 3rem;
+    /* margin: 30px 0; */
+
+}
+.leftsection .buttons{
+    padding: 50px 0; 
+    
+}
+.leftsection .btn{
+    padding: 12px;
+    background: rgb(5, 5, 71);
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.rightsection img {
+    width: 80%;
+}
+
+.purple {
+    color: rgb(141, 91, 188);
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(141, 91, 188);
+}
+
+.secondsection#contact{
+    /* max-width: 97vw; */
+    margin: auto;
+}
+.secondsection#contact h1{
+    font-size: 2.5rem;
+}
+
+.secondsection h1 {
+    font-size: 2rem;
+}
+
+.secondsection .box {
+    background: white;
+    width: 81vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+
+}
+
+.secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    width: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    width: 150px;
+    font-size: 9px;
+    color: gray;
+
+}
+
+footer {
+    background-color: rgb(8, 8, 42);
+    height: 200px;
+    margin-top: 4px;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+    /* margin:240px 0; */
+}
+.footer ul{
+    list-style: none;
+}
+
+.footer > div{
+    width: 170px;
+}
+
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+
+#download-section{
+    cursor: pointer;
+}
+body {
+    
+    margin: 0;
+    padding: 0;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 88vh; */
+    padding-top: 12px;
+}
+
+.contact-content {
+    display: flex;
+    width: 800px;
+    padding: 20px;
+    
+}
+
+.contact-form {
+    flex: 1;
+    padding: 10px 20px 20px 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color: black;
+   
+   
+}
+
+.contact-form h6 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    padding-bottom: 2px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+input,
+textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 18px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.contact-info {
+    flex: 1;
+   padding: 20px 8px;
+    /* border-left: 1px solid #ddd; */
+   
+    /* position: relative; */
+}
+
+.contact-details {
+    margin-top: 0;
+   
+    padding-top: 20px;
+}
+.contact-details p span{
+    font-size: 20px;
+}
+
+.contact-details p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.contact-details a {
+    color: #3498db;
+    text-decoration: none;
+}
+.contact-details h2{
+    padding-bottom: 12px;
+    font-size: 1.3rem;
+}
+
+/* //project */
+body {
+    /* font-family: Arial, sans-serif; */
+    margin: 0;
+    padding: 0;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.project-card {
+    width: 47%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color: black;
+}
+.project-card.project1{
+    position: relative;
+    left: 0;
+    margin: 20px 0px 20px 10px;
+}
+.project-card.project2{
+    position: relative;
+    right: 0;
+    left: 50%;
+    margin: 20px 10px 20px 0px;
+}
+
+.project-card h2 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.project-card p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.demo-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.demo-button:hover {
+    background-color: #2980b9;
+}
+
+
+/* proectpopover */
+
+
+body {
+    /* font-family: Arial, sans-serif; */
+    margin: 0;
+    padding: 0;
+}
+
+.whole{
+    position: relative;
+    display: inline-block;
+   
+}
+
+/* Rest of your CSS styles */
+
+.whole {
+    display: flex;
+    align-items: center;
+}
+
+.description-and-button {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Add some space between description and button */
+}
+.description-and-button .project-description {
+    font-size: 20px;
+}
+
+.popover-button1,.popover-button2 {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.popover-button1:hover,.popover-button2:hover {
+    background-color: #2980b9;
+}
+
+.popover-content1 {
+    display: none;
+    position: absolute;
+    top: -8px;
+    left:105%;
+    width: 200px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 90px;
+    width: 90%;
+}
+
+
+.popover-content1.active {
+    display: block;
+}
+.popover-content2 {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 105%;
+    width: 200px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 90px;
+    width: 90%;
+}
+
+.popover-content2.active {
+    display: block;
+}
+
+.popover-title {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.popover-description {
+    margin-top: 5px;
+    color: #777;
+}
+

@@ -1,0 +1,83 @@
+.container2 {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 6vh;
+    background-color: rgb(16, 16, 131);
+    /* max-width: 97vw; */
+    padding-left: 50px;
+}
+
+.arrow-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 20px;
+    
+}
+
+.arrow1 {
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    position: relative;
+    clip-path: polygon(100% 50%, 25% 0%, 0% 50%, 25% 100%);
+   color: black !important;
+    transition: transform 0.5s ease-in-out;
+}
+.arrow2 {
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    position: relative;
+    color: black;
+    clip-path: polygon(0% 50%, 75% 0%, 100% 50%, 75% 100%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.arrow::before {
+    
+    position: absolute;
+    top: 50%;
+    left:78px;
+    transform: translateY(-50%);
+}
+
+/* .arrow.left {
+    transform: rotate(180deg); /* Flip arrow horizontally 
+} */
+.arrow1.left p{
+    /* transform: rotate(180deg); */
+    font-size: 15px;
+    position: relative;
+ left: 30px;
+  top: 8px;
+}
+.arrow2.right p{
+    
+    font-size: 15px;
+    position: relative;
+  left: 80px;
+  top: 7px;
+}
+
+.arrow1.left p#down{
+    top: 10px;
+}
+.arrow2.right p#down{
+top:10px ;
+}
+
+.arrow1.left.clicked {
+    transform: translateX(-200px); /* Left arrow moves to left */
+    /* transform: rotate(180deg); */
+}
+
+.arrow2.right.clicked {
+    transform: translateX(300px); /* Right arrow moves to right */
+}
+
+
+
